@@ -2,8 +2,6 @@
 
 Sebuah game puzzle balok sederhana yang dibuat dengan HTML, CSS, dan JavaScript murni. Tempatkan balok, bersihkan baris, dan raih skor setinggi mungkin!
 
-![Screenshot Gameplay](assets/images/screenshot.png)
-
 ## Cara Bermain 🎮
 1.  **Seret & Lepas (Drag & Drop):** Pilih satu dari tiga balok yang tersedia di bawah, lalu seret dan lepaskan ke papan permainan.
 2.  **Bersihkan Baris:** Isi satu baris atau kolom penuh (9 sel) untuk membersihkannya dan mendapatkan poin.
