@@ -1,0 +1,28 @@
+/* Area untuk menampilkan blok selanjutnya */
+#next-blocks {
+    margin: 20px 0;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Kontainer pratinjau balok */
+.block-preview {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: grab;
+}
+.block-preview:active {
+    cursor: grabbing;
+}
+
+/* Sel kecil di dalam pratinjau balok */
+.block-cell {
+    width: 21px;
+    height: 21px;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}

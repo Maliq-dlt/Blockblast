@@ -1,0 +1,46 @@
+/* Wrapper untuk menampung grid dan popup animasi */
+#grid-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Papan permainan (grid) */
+#grid {
+    display: grid;
+    grid-template-rows: repeat(9, 35px);
+    grid-template-columns: repeat(9, 35px);
+    gap: 3px;
+    padding: 5px;
+    background: #2D2D2D;
+    border: 2px solid #444;
+    border-radius: 8px;
+}
+
+/* Sel di dalam grid */
+.cell {
+    width: 35px;
+    height: 35px;
+    background: #3e3f47; 
+    border-radius: 5px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.cell.filled {
+    transform: scale(1.05);
+}
+
+/* Preview / Bayangan Blok saat drag */
+.cell.preview {
+    background-color: rgba(255, 255, 255, 0.2); 
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+}
+
+/* Hint / Bayangan Bantuan */
+.cell.ghost {
+    background-color: transparent;
+    border: 2px dashed #457B9D;
+    box-shadow: 0 0 15px rgba(69, 123, 157, 0.7);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}

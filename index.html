@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Block Blast Game</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/blocks.css">
+    <link rel="stylesheet" href="css/ui.css">
+    <link rel="stylesheet" href="css/colors.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <h1>Block Blast</h1>
+        
+        <div id="game-info">
+            <div id="score">Score: 0</div>
+        </div>
+
+        <div id="grid-wrapper">
+            <div id="grid"></div>
+            <div id="animation-popup"></div>
+        </div>
+
+        <div id="next-blocks"></div>
+        <button id="restart">Restart Game</button>
+    </div>
+
+    <audio id="audio-place" src="place.mp3" preload="auto"></audio>
+    <audio id="audio-clear" src="clear.mp3" preload="auto"></audio>
+    <audio id="audio-combo" src="combo.mp3" preload="auto"></audio>
+    <audio id="audio-gameover" src="gameover.mp3" preload="auto"></audio>
+    
+    <audio id="background-music" src="background.mp3" loop></audio>
+
+    <script src="js/config.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/gameLogic.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

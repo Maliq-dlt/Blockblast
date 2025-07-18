@@ -1,0 +1,56 @@
+/* Info game (skor) */
+#game-info {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Tombol Restart */
+#restart {
+    margin-top: 15px;
+    padding: 12px 25px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #E63946; /* 🔴 Crimson Red */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#restart:hover {
+    background-color: #c42d39;
+    transform: scale(1.05);
+}
+
+/* Animasi Pop-up */
+#animation-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: rgba(29, 53, 87, 0.8);
+    border: 2px solid rgba(69, 123, 157, 0.9);
+    pointer-events: none;
+    opacity: 0;
+    z-index: 100;
+    text-align: center;
+}
+
+#animation-popup.show {
+    animation: pop-up-effect 1.5s ease-out forwards;
+}
+
+@keyframes pop-up-effect {
+    0% { opacity: 1; transform: translate(-50%, -50%) scale(0.5); }
+    20% { transform: translate(-50%, -50%) scale(1.1); }
+    40% { transform: translate(-50%, -50%) scale(1); }
+    80% { opacity: 1; }
+    100% { opacity: 0; transform: translate(-50%, -50%) scale(1); }
+}

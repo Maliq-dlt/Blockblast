@@ -1,0 +1,20 @@
+/* === PALET WARNA BLOK === */
+.color-1 { background-color: #E63946; } /* 🔴 Crimson Red */
+.color-2 { background-color: #F4A261; } /* 🟠 Amber Gold */
+.color-3 { background-color: #F7C948; } /* 🟡 Sun Yellow */
+.color-4 { background-color: #2A9D8F; } /* 🟢 Emerald */
+.color-5 { background-color: #457B9D; } /* 🟦 Azure Blue */
+.color-6 { background-color: #1D3557; } /* 🔵 Cobalt Blue */
+.color-7 { background-color: #C65B7C; } /* 🟣 Magenta */
+.color-8 { background-color: #A47148; } /* 🟤 Coffee Tan */
+.color-9 { background-color: #8E6E95; } /* 🟪 Violet */
+.color-11 { background-color: #A3E635; }/* 🟩 Lime Neon */
+.color-12 { background-color: #FFB4A2; }/* 🟨 Peach */
+
+/* === EFEK GLOW ANIMASI === */
+.glow-nice { text-shadow: 0 0 8px #2A9D8F, 0 0 12px #2A9D8F; }
+.glow-amazing { text-shadow: 0 0 8px #457B9D, 0 0 12px #457B9D; }
+.glow-fantastic { text-shadow: 0 0 8px #8E6E95, 0 0 12px #8E6E95; }
+.glow-unbelievable { text-shadow: 0 0 10px #F4A261, 0 0 15px #F4A261; }
+.glow-perfect { text-shadow: 0 0 10px #F7C948, 0 0 20px #fff, 0 0 30px #F7C948; }
+.glow-sweep { text-shadow: 0 0 8px #A3E635, 0 0 12px #A3E635; }
